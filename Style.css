@@ -1,0 +1,45 @@
+body{
+    background-color: lightpink;
+    color: darkred;
+    #21_positive {
+        color: darkblue;
+    }
+
+    font-size: 12px;
+    border: 12px dashed darkblue;
+    padding: 20px;
+    margin: 10px;
+
+    .meow {
+        width: 100px;
+    }
+
+    a[visited]{
+        color: limegreen;
+    }
+
+    li:hover{
+        color: navy;
+    }
+
+    a[href = "https://www.frhsd.com/"] {
+        color: limegreen;
+    }
+
+    ul>li:first-child {
+        color: fuchsia;
+    }
+
+    li+li {
+        color: limegreen;
+    }
+
+
+}
+
+    a:visited {
+        color: hotpink;
+    }
+
+}
+}
