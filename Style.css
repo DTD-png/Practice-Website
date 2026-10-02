@@ -5,12 +5,22 @@ body{
         color: darkblue;
     }
 
+    .hello {
+        display: grid;
+    }
+
+    .meow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     font-size: 12px;
     border: 12px dashed darkblue;
     padding: 20px;
     margin: 10px;
 
-    .meow {
+    #meow {
         width: 100px;
     }
 
@@ -33,13 +43,28 @@ body{
     li+li {
         color: limegreen;
     }
-
-
-}
-
     a:visited {
         color: hotpink;
     }
 
+    #image {
+        width: 400px;
+    }
+
+    #wyw {
+        grid-template-columns: repeat(5,ifr);
+        grid-template-rows: auto auto;
+        gap: 12px;
+
+    }
+
+    #img {
+        grid-color: 50px;
+    }
+
+    #kitty {
+        width: 500px;
+    }
 }
-}
+
+
