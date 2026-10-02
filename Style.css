@@ -1,12 +1,29 @@
 body{
-    background-color: lightpink;
-    color: darkred;
-    #21_positive {
-        color: darkblue;
+    background-color: maroon;
+    color: white;
+
+    .hover-container .hidden-text {
+        display: none;
+        color: red;
+        margin-left: 10px;
+        text-align: center;
     }
 
-    .hello {
-        display: grid;
+    .hover-container:hover .hidden-text {
+        display: contents;
+    }
+
+    .tam {
+        font-size: large;
+        text-align: center;
+    }
+
+    .nnl {
+        font-size: large;
+    }
+
+    .line {
+        color: black;
     }
 
     .meow {
@@ -14,9 +31,18 @@ body{
         justify-content: space-between;
         align-items: center;
     }
+    table {
+        border-collapse: collapse;
+        width: max-content;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 20px;
+    }
 
     font-size: 12px;
-    border: 12px dashed darkblue;
+    border: 12px dashed darkred;
     padding: 20px;
     margin: 10px;
 
@@ -25,7 +51,7 @@ body{
     }
 
     a[visited]{
-        color: limegreen;
+        color: black;
     }
 
     li:hover{
@@ -33,7 +59,7 @@ body{
     }
 
     a[href = "https://www.frhsd.com/"] {
-        color: limegreen;
+        color: black;
     }
 
     ul>li:first-child {
@@ -41,7 +67,7 @@ body{
     }
 
     li+li {
-        color: limegreen;
+        color: dodgerblue;
     }
     a:visited {
         color: hotpink;
@@ -63,8 +89,18 @@ body{
     }
 
     #kitty {
-        width: 500px;
+        width: 250px;
     }
+
+    .school-link {
+        color: yellow;
+    }
+
+    .random-link {
+        color: greenyellow;
+    }
+
+
 }
 
 
