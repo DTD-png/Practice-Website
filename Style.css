@@ -42,7 +42,7 @@ body{
     }
 
     font-size: 12px;
-    border: 12px dashed darkred;
+    border: 12px dashed white;
     padding: 20px;
     margin: 10px;
 
@@ -74,14 +74,7 @@ body{
     }
 
     #image {
-        width: 400px;
-    }
-
-    #wyw {
-        grid-template-columns: repeat(5,ifr);
-        grid-template-rows: auto auto;
-        gap: 12px;
-
+        width: 200px;
     }
 
     #img {
@@ -92,15 +85,30 @@ body{
         width: 250px;
     }
 
-    .school-link {
-        color: yellow;
+    #school {
+        color: darkblue;
     }
 
-    .random-link {
+    #random {
         color: greenyellow;
     }
 
+    #gridimage {
+        width: 100px;
+    }
 
+    .row-container {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .item {
+        flex: 1;
+        padding: 20px;
+        background-color: grey;
+    }
 }
 
 

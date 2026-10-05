@@ -1,5 +1,5 @@
 function clicked() {
-    document.title = "Anthropic";
+    document.title = "Best Website";
     onclick = "clicked";
     onload = "loading";
 
@@ -21,4 +21,3 @@ function clicked() {
             sessoionStorage.setItem("key","value");
         }
     }
-}
