@@ -7,7 +7,6 @@ function clicked() {
         let copy = document.parse(document.everySelector("button #meow"));
 
     }
-
     JSON.stringify("key",)
 
     function localstorage() {
