@@ -1,113 +1,122 @@
-body{
+body {
     background-color: maroon;
     color: white;
-
-    .hover-container .hidden-text {
-        display: none;
-        color: red;
-        margin-left: 10px;
-        text-align: center;
-    }
-
-    .hover-container:hover .hidden-text {
-        display: contents;
-    }
-
-    .tam {
-        font-size: large;
-        text-align: center;
-    }
-
-    .nnl {
-        font-size: large;
-    }
-
-    .line {
-        color: black;
-    }
-
-    .meow {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    table {
-        border-collapse: collapse;
-        width: max-content;
-    }
-
-    th, td {
-        border: 1px solid black;
-        padding: 20px;
-    }
-<!--
-    font-size: 12px;
-    border: 12px dashed white;
-    padding: 20px;
-    margin: 10px;
-
-    #meow {
-        width: 100px;
-    }
-
-    a[visited]{
-        color: black;
-    }
-
-    li:hover{
-        color: navy;
-    }
-
-    a[href = "https://www.frhsd.com/"] {
-        color: black;
-    }
-
-    ul>li:first-child {
-        color: fuchsia;
-    }
-
-    li+li {
-        color: dodgerblue;
-    }
-    a:visited {
-        color: hotpink;
-    }
-
-    #image {
-        width: 200px;
-    }
-
-    #img {
-        grid-color: 50px;
-    }
-
-    #kitty {
-        width: 250px;
-    }
-
-    #school {
-        color: darkblue;
-    }
-    #random {
-        color: greenyellow;
-    }
-
-    #larp {
-        width: 200px;
-    }
-
-    .row-container {
-        display: flex;
-        gap: 15px;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .item {
-        flex: 1;
-        padding: 20px;
-        background-color: grey;
-    }
+    font-family: sans-serif;
+    margin: 20px;
 }
 
+.hover-container .hidden-text {
+    display: none;
+    color: red;
+    margin-left: 10px;
+}
+
+.hover-container:hover .hidden-text {
+    display: inline;
+}
+
+abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+/* Typography & Lists */
+.tam, .nnl {
+    font-size: large;
+    font-weight: bold;
+}
+
+li:hover {
+    color: navy;
+}
+
+ul > li:first-child {
+    color: fuchsia;
+}
+
+li + li {
+    color: dodgerblue;
+}
+
+a {
+    color: lightblue;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+#school {
+    color: darkblue;
+}
+
+#random {
+    color: greenyellow;
+}
+
+#image {
+    width: 200px;
+}
+
+#kitty {
+    width: 250px;
+}
+
+#larp {
+    width: 200px;
+}
+
+#cory {
+    width: 150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 15px;
+    border: 2px dashed white;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ffcccc;
+}
+
+.row-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    background-color: grey;
+    color: black;
+    text-align: center;
+}
+
+.box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.controls-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+}
 

@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-
-
-<title id = "title">First Website</title>
-
-<script src="index.js"></script>
-<link rel="Stylesheet" href="Style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">First Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
 
 <header class="hover-container">
-    Welcome to HCSSCWDAI
+    Welcome to <abbr title="D'Angelo Teodoro Diangson">HCSSCWDAI</abbr>
     <span class="hidden-text">D'Angelo Teodoro Diangson</span>
 </header>
 <hr>
-<a>
-    Hello World!
-</a>
+
+<p>Hello World!</p>
 <hr>
-<a class="tam">
-    Things About Me
-</a>
+
+<p class="tam">Things About Me</p>
 <ol id="hello">
     <li>I like to sleep</li>
     <li>Doomscroll</li>
@@ -27,84 +26,79 @@
 </ol>
 
 <ul>
-    <li>I am Filipino & Dominican</li>
+    <li>I am Filipino &amp; Dominican</li>
     <li>I like anime</li>
     <li>I'm good at cleaning</li>
 </ul>
-<hr class = "line">
-<a class ="nnl">
-    Not Numbered List
-</a>
-<strong>
-    <li>Something</li>
-    <li>My dog died</li>
-    <li>idk</li>
-</strong>
-<img class="kitty" src="https://media.tenor.com/h_jy2s28rlYAAAAj/spinning-cat.gif">
-<hr>
-<li>
-    <em>The yays are high, the nays are low, the bill is passed.</em>
-</li>
-<li>
-    <body>a<sub>n</sub>= (n-1)<sup>2</sup>+2(n-1)</body>
-</li>
-<li>
-    <th><q>Love thy Neighbor and Love thy Enemies</q><body>- I dunno.</body>
-</li>
-<br>
-<a id="school" href="https://www.frhsd.com/">
-    FRHSD WEBSITE
-</a>
-<br>
-<a id="random" href="https://www.anthropic.com/">
-    Anthropic Website
-</a>
-<br>
+<hr class="line">
+
+<p class="nnl">Not Numbered List</p>
 <ul>
-<table id="table">
-    <tr>
-        <th> <img id="larp" src="https://preview.redd.it/lets-larp-v0-ydmhprequfsg1.jpeg?auto=webp&s=df30a08aa23ee596f9373263cf1b7a570d5553d0" <th/>
-        <th> <a id="linkone" href="https://www.anduril.com/">External Link</a><th/>
-        <th><a href="#internallink">Internal Link</a><th/>
-    <tr/>
-    <tr>
-        <th> Meow<th/>
-        <th>
-            <p>This is a paragraph</p>
-            <p>This is a second paragraph I think</p>
-        <th/>
-        <th> Meow 3<th/>
-    <tr/>
+    <li><strong>Something</strong></li>
+    <li><strong>My dog died</strong></li>
+    <li><strong>idk</strong></li>
+</ul>
 
-    <img id="image" src="https://hips.hearstapps.com/hmg-prod/images/2025-cadillac-ct5-v-blackwing-php-1428-66a7cc2dd4cd1.jpg?crop=0.795xw:0.673xh;0.170xw,0.272xh&resize=1200:*"
-<img id="cory" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_b9pSPRfsVY9WUa67JeluLmIE5RkQ2XDOFiUGAnJ-Os2NGRPUUX65Z0&s=10">
+<img class="kitty" id="kitty" src="https://media.tenor.com/h_jy2s28rlYAAAAj/spinning-cat.gif" alt="Spinning Cat">
+<hr>
 
-<div>
-    <button onclick = "clicked()"> Best Website </button>
+<ul>
+    <li><em>The yays are high, the nays are low, the bill is passed.</em></li>
+    <li>a<sub>n</sub> = (n-1)<sup>2</sup> + 2(n-1)</li>
+    <li><q>Love thy Neighbor and Love thy Enemies</q> &mdash; I dunno.</li>
+</ul>
+<br>
+
+<a id="school" href="https://www.frhsd.com/" target="_blank">FRHSD WEBSITE</a>
+<br>
+<a id="random" href="https://www.anthropic.com/" target="_blank">Anthropic Website</a>
+<br><br>
+
+<!-- Fixed Grid Container (Replaced malformed table) -->
+<div class="grid-container">
+    <div class="grid-item">
+        <img id="larp" src="https://preview.redd.it/lets-larp-v0-ydmhprequfsg1.jpeg?auto=webp&s=df30a08aa23ee596f9373263cf1b7a570d5553d0" alt="Larp">
+        <p>Meow</p>
+    </div>
+    <div class="grid-item">
+        <a id="linkone" href="https://www.anduril.com/" target="_blank">External Link</a>
+        <p>This is a paragraph</p>
+        <p>This is a second paragraph I think</p>
+    </div>
+    <div class="grid-item">
+        <a href="#internallink">Internal Link</a>
+        <p>Meow 3</p>
+    </div>
 </div>
-    <button id="justzero">0</button>
-    <button id="counterButton">0</button>
-</html>
+
+<div class="image-gallery">
+    <img id="image" src="https://hips.hearstapps.com/hmg-prod/images/2025-cadillac-ct5-v-blackwing-php-1428-66a7cc2dd4cd1.jpg?crop=0.795xw:0.673xh;0.170xw,0.272xh&resize=1200:*" alt="Cadillac CT5-V">
+    <img id="cory" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF_b9pSPRfsVY9WUa67JeluLmIE5RkQ2XDOFiUGAnJ-Os2NGRPUUX65Z0&s=10" alt="Cory">
+</div>
+
+<!-- Title & Storage Interactive Buttons -->
+<div class="controls-section">
+    <button id="changeTitleBtn">Change Website Title</button>
+    <button id="counterButton">Clicks: 0</button>
+    <button id="saveLocalBtn">Save Count to LocalStorage</button>
+    <button id="saveSessionBtn">Save Count to SessionStorage</button>
+    <button id="resetBtn">Reset Counter</button>
+    <p id="storageStatus"></p>
+</div>
+
 <p style="margin: 20px;">This text has a margin I think.</p>
-
-
-<head>
-    <style>
-        .box {
-            margin: 20px;
-        }
-    </style>
-</head>
-<body>
 <div class="box">This is padded I think</div>
 
-<input type="text" placeholder="Type SSN">
-<button type="button">Enter</button>
-</body>
+<div class="form-container">
+    <input type="text" id="ssnInput" placeholder="Type SSN">
+    <button type="button" id="ssnSubmit">Enter</button>
+</div>
 
 <div class="row-container">
     <div class="item">This is row based container</div>
     <div class="item">Box 2</div>
     <div class="item">Box 3</div>
 </div>
-<!--
+
+</body>
+</html>
